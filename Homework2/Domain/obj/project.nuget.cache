@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "pxJv2l6LR6BTIfTHmnBoNpCRgwAjvp/dANtx6eYBJaFU0ONl9tpmrHhpjXPYYMKKcjgnaPqsaQiSz48rp9IOWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Project_C#\\homework-2\\Homework2\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

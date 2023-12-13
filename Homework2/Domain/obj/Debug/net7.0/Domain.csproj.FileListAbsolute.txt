@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\bin\Debug\net7.0\DataLayer.dll
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\bin\Debug\net7.0\DataLayer.pdb
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\Admin\Desktop\Project_C#\homework-2\Homework2\Domain\obj\Debug\net7.0\ref\Domain.dll

@@ -1,0 +1,94 @@
+﻿syntax = "proto3";
+import "google/api/annotations.proto";
+
+package product_grpc;
+
+service ProductGrpcService {
+	rpc CreateProduct (CreateProductRequest) returns (CreateProductResponse) {
+		option (google.api.http) = {
+            post: "/v1/product/create",
+			body:"*"
+        };
+	}
+	rpc GetProductsListWithFilters (GetProductsListWithFiltersRequest) returns (GetProductsListWithFiltersResponse){
+		option (google.api.http) = {
+            get: "/v1/product/gets"
+        };
+	}
+	rpc GetProductById (GetProductByIdRequest) returns (GetProductByIdResponse) {
+		option (google.api.http) = {
+            get: "/v1/product/get"
+        };
+	}
+	rpc UpdateProductPrice (UpdateProductPriceRequest) returns (UpdateProductPriceResponse) {
+		option (google.api.http) = {
+            get: "/v1/product/update"
+        };
+	}
+}
+
+enum ProductType {
+    COMMON = 0;
+    HOUSEHOLD_CHEMICALS = 1;
+    ELECTRONICS = 2;
+    GROCERIES = 3;
+}
+
+message CreateProductRequest {
+	int32 id = 1;
+	string name = 2;
+	double price = 3;
+	double weight = 4;
+	ProductType type = 5;
+	string creation_date = 6;
+	int32 warehouse_id = 7;
+}
+
+message CreateProductResponse {
+	bool result = 1;
+}
+
+message GetProductsListWithFiltersRequest {
+	optional string creation_date = 1;
+	optional ProductType type = 2;
+	optional int32 warehouse_id = 3;
+	int32 page_size = 4;
+	int32 pagination = 5;
+}
+
+message GetProductsListWithFiltersResponse {
+	repeated ProductInfo products = 1;
+}
+
+message GetProductByIdRequest {
+	int32 id = 1;
+}
+
+message GetProductByIdResponse {
+	int32 id = 1;
+	string name = 2;
+	double price = 3;
+	double weight = 4;
+	ProductType type = 5;
+	string creation_date = 6;
+	int32 warehouse_id = 7;
+}
+
+message ProductInfo {
+	int32 id = 1;
+	string name = 2;
+	double price = 3;
+	double weight = 4;
+	ProductType type = 5;
+	string creation_date = 6;
+	int32 warehouse_id = 7;
+}
+
+message UpdateProductPriceRequest {
+	int32 id = 1;
+	double price = 2;
+}
+
+message UpdateProductPriceResponse {
+	bool result = 1;
+}
